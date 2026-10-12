@@ -11,8 +11,9 @@ int main(){
         printf("enter second array elements: ");
         scanf("%d",&b[i]);
     }
+    printf("\n Addition of matrix is : \n");
     for(i=0;i<5;i++){
         c[i]=a[i]+b[i];
-        printf("\n third array element at index %d is : %d \n",i,c[i]);
+        printf(" Third array element at index %d is : %d \n",i,c[i]);
     }
 }
